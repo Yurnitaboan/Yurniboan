@@ -1,0 +1,27 @@
+cd C:\Users\Lenovo\Documents\NetBeansProjects\programDasar; "JAVA_HOME=C:\\Program Files\\Java\\jdk-23" cmd /c "\"C:\\Program Files\\NetBeans-23\\netbeans\\java\\maven\\bin\\mvn.cmd\" -Dexec.vmArgs=--enable-preview \"-Dexec.args=${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}\" \"-Dexec.executable=C:\\Program Files\\Java\\jdk-23\\bin\\java.exe\" -Dexec.mainClass=MatematikaBeraksi -Dexec.classpathScope=runtime -Dexec.appArgs= \"-Dmaven.ext.class.path=C:\\Program Files\\NetBeans-23\\netbeans\\java\\maven-nblib\\netbeans-eventspy.jar\" --no-transfer-progress process-classes org.codehaus.mojo:exec-maven-plugin:3.1.0:exec"
+Scanning for projects...
+
+---------------------< com.mycompany:programDasar >---------------------
+Building programDasar 1.0-SNAPSHOT
+  from pom.xml
+--------------------------------[ jar ]---------------------------------
+
+--- resources:3.3.1:resources (default-resources) @ programDasar ---
+skip non existing resourceDirectory C:\Users\Lenovo\Documents\NetBeansProjects\programDasar\src\main\resources
+
+--- compiler:3.11.0:compile (default-compile) @ programDasar ---
+Changes detected - recompiling the module! :source
+Compiling 4 source files with javac [debug release 23] to target\classes
+
+--- exec:3.1.0:exec (default-cli) @ programDasar ---
+hasil operasiBaru:25.264084507042256
+pertambahan (12.5, 28.7, 14.2): 55.400000000000006
+pertambahan (12,28,14): 54
+pertambahan (23,34): 57
+pertambahan (3.4, 4.9) 8.3
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  3.332 s
+Finished at: 2024-12-04T09:08:27+07:00
+------------------------------------------------------------------------
